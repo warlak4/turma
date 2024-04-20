@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    // Статические функции
     public static void zanyto(String graveId) {
         System.out.println("Заняты и свободны" + graveId);
     }
@@ -14,7 +13,6 @@ public class Main {
         System.out.println("Добавление владельца " + ownerName + " к могиле " + graveId);
     }
     
-    // Обычные функции
     public void fireshow(String graveId, String deceasedName) {
         System.out.println("Как такое произошло вашего " + deceasedName + " сожгли на могиле " + graveId);
     }
