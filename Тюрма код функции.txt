@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Main {
+    // Статические функции
+    public static void zanyto(String graveId) {
+        System.out.println("Заняты и свободны" + graveId);
+    }
+    
+    public static double mesta(double length, double width) {
+        return length * width;
+    }
+    
+    public static void VladikaTmi(String graveId, String ownerName) {
+        System.out.println("Добавление владельца " + ownerName + " к могиле " + graveId);
+    }
+    
+    // Обычные функции
+    public void fireshow(String graveId, String deceasedName) {
+        System.out.println("Как такое произошло вашего " + deceasedName + " сожгли на могиле " + graveId);
+    }
+    
+    public String Speak(String deceasedName) {
+        return "Поговрить с " + deceasedName + " 500 рублей";
+    }
+    
+    public void HideAndSeekWithTrupi() {
+        System.out.println("Вас идёт искать" + deceasedName);
+    }
+    
+    public void customGraveFunction(String graveId) {
+        System.out.println("Дополнительная функция для могилы с идентификатором " + graveId);
+    }
+    
+    public String addCollection(String graveId) {
+        return "Добавим вашего знакомого к нам в коллекцию " + graveId + " ЖУ ЖУ ЖУ";
+    }
+    
+    public static void main(String[] args) {
+        //Добавится в следующем патче ожидайте
+    }
+}
